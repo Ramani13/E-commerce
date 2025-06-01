@@ -1,0 +1,110 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Collection</title>
+   <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+   <section class="navbar">
+       <div class="navbar-left">
+          <h1>Unlimited</h1>
+       </div>
+       <div class="menu-icon" onclick="toggleMenu()">☰</div>
+       <div class="navbar-right">
+           <h3><a href="index.html">Home</a></h3>
+           <h3><a href="Collection.html">Collections</a></h3>
+           <h3><a href="Contact.html">Contact Us</a></h3>
+       </div>
+    </section>
+
+
+    <section class="product">
+      <div class="product-all">
+         <div class="product-all__sidebar">
+           <h1>Occasion</h1>
+        <div class="filter-group">
+    <label><input type="checkbox" class="filter-checkbox" name="type" value="Cotton"> Cotton</label><br><br>
+    <label><input type="checkbox" class="filter-checkbox" name="type" value="Party"> Party</label><br><br>
+    <label><input type="checkbox" class="filter-checkbox" name="type" value="T-shirt"> T-shirt</label><br><br>
+  </div>
+         </div>
+         <div class="product-all__sidebar">
+            <h1>Color</h1>
+            <div class="filter-group">
+           <label><input type="checkbox" name="color" value="pink"> Pink</label><br><br>
+              <label><input type="checkbox" name="color" value="black"> Black</label><br><br>
+            <label><input type="checkbox" name="color" value="blue"> Blue</label><br><br>
+         </div>
+         </div>
+         <div class="product-all__sidebar">
+            <h1>Arrivals</h1>
+           <div class="filter-group">
+              <label><input type="checkbox" name="arrival" value="new"> New</label><br><br>
+              <label><input type="checkbox" name="arrival" value="old"> Old</label><br><br>
+           </div>
+         </div>
+      </div>
+      <section class="product-images">
+        <div class="product-images__section" data-type="Cotton" data-color="blue" data-arrival="new">
+         <img src="./images/floral kurthi1.jpg">
+         <p>Floral kurthi</p>
+         <p>$599</p>
+        </div>
+        <div class="product-images__section" data-type="Cotton"  data-color="blue" data-arrival="new">
+         <img src="./images/floral kurthi2.jpg">
+         <p>Floral kurthi</p>
+         <p>$399</p>
+        </div>
+        <div class="product-images__section" data-type="Cotton" data-color="pink" data-arrival="old">
+         <img src="./images/floral kurthi3.jpg">
+         <p>Floral kurthi</p>
+         <p>$459</p>
+        </div>
+        <div class="product-images__section" data-type="Party" data-color="pink" data-arrival="new">
+         <img src="./images/party image1.jpg">
+         <p>Party wear</p>
+         <p>$1,599</p>
+        </div>
+         <div class="product-images__section" data-type="Party" data-color="pink" data-arrival="new">
+         <img src="./images/party image3.jpg">
+         <p>Party wear</p>
+         <p>$1,199</p>
+        </div>
+         <div class="product-images__section" data-type="Party" data-color="blue black" data-arrival="new"> 
+         <img src="./images/party image2.jpg">
+         <p>Party wear</p>
+         <p>$999</p>
+        </div>
+         <div class="product-images__section" data-type="T-shirt" data-color="black" data-arrival="old">
+         <img src="./images/t shirt1.jpg">
+         <p>T-shirt</p>
+         <p>$369</p>
+        </div>
+         <div class="product-images__section"  data-type="T-shirt" data-arrival="old">
+         <img src="./images/t shirt2.jpg">
+         <p>T-shirt</p>
+         <p>$498</p>
+        </div>
+         <div class="product-images__section"  data-type="T-shirt"  data-arrival="old">
+         <img src="./images/t shirt3.jpg">
+         <p>T-shirt</p>
+         <p>$432</p>
+        </div>
+      </section>
+    </section>
+
+   <section class="footer">
+        <p>From casual to classy, find your perfect dress today!</p>
+        <p>@2023 unlimited.com</p>
+    </section>
+ </body>
+ </html>
+ <script src="script.js"></script>
+ 
+ 
+ 
+ 
+
+ 

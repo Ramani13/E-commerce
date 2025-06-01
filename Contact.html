@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+   <section class="navbar">
+       <div class="navbar-left">
+          <h1>Unlimited</h1>
+       </div>
+       <div class="menu-icon" onclick="toggleMenu()">☰</div>
+       <div class="navbar-right">
+           <h3><a href="index.html">Home</a></h3>
+           <h3><a href="Collection.html">Collections</a></h3>
+           <h3><a href="Contact.html">Contact Us</a></h3>
+       </div>
+    </section>
+  <section class="contact-container">
+    <h1>Contact Us</h1>
+    <form class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+   <section class="footer">
+        <p>From casual to classy, find your perfect dress today!</p>
+        <p>@2023 unlimited.com</p>
+    </section>
+</body>
+</html>
